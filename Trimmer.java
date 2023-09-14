@@ -22,7 +22,7 @@ public class Trimmer {
             }
             reader.close();
             writer.close();
-            System.out.println("Comments | White-spaces removed and saved to " + outputFilePath);
+            System.out.println("Comments | White-spaces removed and saved to - " + outputFilePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
